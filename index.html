@@ -1,0 +1,307 @@
+<!--
+	作者：冷风不是疯
+	时间：2021-02-23
+	主页：https://space.bilibili.com/28826850
+
+	正义の眼神
+        ;:;i;i;;r;r;;;iii:i:i::ir;r;;i;;;;;;;iiirr;i;iiiiii::.,,:,,,,.,.,,:.:,,,,,,.,,,:,.,,,,,,,,,,,,:,,,,,:,,,:,,,,,,.
+        ;.:,,:,:,,,:::.,,. ....:iiii:::i:i:i:,.,,:,:,:,:,,.,                                                            
+        ;:;i;i;ii:i:iiiii:ii;ii;7r;;;;r;r;;ii;r;7;i:iii:i:i:,,,.,,,,,,,.,.,.,.,.,,,.,,,.,.,,,.,.,,,...,.......,,:.,.,,,.
+        i:i;i;ii:iiiii:i:iirii:;ri:::iii::,:::ir7Xri:i:i:i:::,.,.,.,.,.,.,...,...,.,.,.,.,.,.,.:.,.... . ... . ,.,,,.,.,
+        i:iiiiiiii;i;:iiii;r;:iii,,:i,:,....::;rXX2r::i:i:i,,.,...,.,.,.,.,.,.....,.,.....,...,.,.. ..:,iirr7:  .,,.....
+        i:iii;iii;i;iii;i;rri:::,:,i::.,.,.,:ii;7SSXi:::i:,:...,.,.,.,.,...,.,.,.....,.....,.,...,  ,r7Xr7XS22;  ..,.,..
+        ;:iii;;;;i;i;i;;;;;ii,:,:,:::.,.....::i;77XXSi:::::.,.,.,.,.,.,.,...,...,.,.,...,.,.,.... .:;rSSSXSX2Za: .,.,...
+        ;ii;i;;r;;;;iiiiiii:,,::,:::.,.,...,,iir7SXSSX;:,i,,.,.,...,.,...,.....,.,...,...,.,.... ,i;;X7X7XSZZZZX ....,..
+        ri;i;i;ii::::,:,,,,.,,,,,.,.,.,.,,,,:i;;XXXXXXXi:,,.,...,.,.,...,.....,...,...,...,..  .i;77X77r7XaZa2Z2i ....,.
+        i:::,:,:,,...,.......,...,...,..,,,::i:;7SXX7X7X;,...,.,.,.,.,.,.,.....,.,.....,.... ,:i;7XX7rr7rXXSSaaZ7  ,.,..
+        : :...,.,.,.....::::::,,,.....,.,,,:i;;;XX2SXX7XX;, . ........,.,.,.,.,.,...,.,.... :iiiXXX777XXX7XXaaaZa, .,.,.
+        . ...,...,..,,,::i::::,,,,...,,,..,:i;irr7X222XSXXX;,. .   . ......... ..,......  ,rrr72S7r7XSSSXSSSSS2aa; ..,..
+        , ,......,,,:,:,,...,.,,:,i:;i;i:,ii;r77X777X7XrXXX77;iii,,..   . .       . .   ,iX77XZZ7rXXSS22aS2SXXS2Zr  ....
+        . ...,,:,:,:::,,,::i:ii;r7r77X7X77;irSaa7;;i:iiiiii;;r777X77rr;;;;;rr;ii:i,,,:.:;X7r7Za77XXSXSX2a222XXXSZX  .,..
+        : :.:::iiiii;;;;7XX777XXSXXXXXX7XX;i7XX;ii;:iiii;;;;;;r;rr7r7rrr7r77X7X77rX7r;7r7rXXZZX7XXSS2S22a2aa2XXXZX  .,..
+        ::ii;;;r;r77XXXSSSSSXSXXXXXX7X777r;rii::iii;iii;;r;r;rrr;;;;;;;;i;;r;;;7rrrSaS7Xr7SZ8S7XSaZ0888008ZaXXXaZX ..,..
+        7;77XXXXSX2XSXSXXXXXX7X7X777X77rrii::::i;i;i;;r;rrrr777r7rr;r;;i;;iii:;rrr;7ZaXrXZ8Za77722ZZ0BWBB8aXXXS2Zr .,...
+        SSS2XSSSXXXXXX7X7X777777777Xr7;i:::i:i:i:ii;;;;rr77Xrr777rrr;;;;;;i;i;;rr7rr;SZ8ZZZ277rX77X2ZBBB08SX7SSSa; .,,..
+        SXSXXXXXX777777r7777X7X77rr;i:,,::i:i::iiiii;;rr7rXXX77rrrr;r;;;rrrrrrrr7;;;;iXZ0ZaXX7X777SaBWW08aSXXXXX2i..,...
+        X7XX7X7X777777777X77;;ii:,::,:,::iii,:,,:::;;;r77XXXrr;rr7r777;7;7rrrr;r;rrrr;irXaaZaSXX7SZ@@W008a77XXX27. .....
+        X7X7X7X7X77r7r7777ri:.,,:,::::iiiii:,.::,,:i;ir7XXX;;r7r7r7rrrr;r77;rr;irrr;rrri:raaSXX7aWM@BBB8aXr77XSS: ..,...
+        X77X7X7777r7r7r7r;:,.,,::i:::ii;;;:,,:,:,:,i;rrXXXrrr7rrr7rrrrrr;rrrr7r7r;rr;rr;ii;SSXXWMM@WBBZ27r;rrXSr  ...,..
+        XrX7X7777r7r7r7ri,.,::i,:,::ii;ii:::i::::::ir;7XX;rr7rr;;iiii;r;;r7;rrr;r;;;;r7;;iiirX8W8BM0ZaX7XX7XZ8Zr....,...
+        X77777rrr7r7rr;i,,,::i::,,:ii:...,ii:i::iiirrr7Xrr77r;ii:i::i;ir;7rrr7r7;;r;;;;r;r;;:;r77Z0a77XXXXZM0SX7,,.,....
+        Xr7r7r7r7r7rr;i:::iiiii::,:...... ;;;:::iirr7XXXXXXr;i::iiiii:ii;r7XX77r7;;rr;;;r;;i;ii;rrXXS777r;SXiiXri,:.....
+        7r77r7rr;;;;ii:,:i:i:i:i::,XWMMMMZr;;::iirrXrX7XXXr;i:::iii;:iiii;;7777Xrrrr;;;r;;iiiiiiii;7XSXSXXXSSSXXii,,,,..
+        ri;;iii:i:i::::,i:,...,::,X@020MM@0Xi,i;7rrr7r7777rii:i:ii;::,i:;iiirrXrr;7rr;7rr;;;;iiii:iirXSXXX2ZZaaX;ii::.,.
+        :,::::,:,,,:,:::,,     ..iX;ZZaWaXM8:i;r;rii;7r;i;;;iiii:ii,.:,,,ii;i;rXXXr7rr;r;r;;;;i;ii:iir7XXX2aaaSXrr;i,,..
+        :.:,:,,,,,:,,:::.     .  X;iMBB@MM@Xi;;ii::i;i;:i;;;i:iii,:XBWBa7i::ri;;77r;rrr;;;ri;;riii;iii;rX728B8ZX7r;i:,,.
+        ,,::,,,:,:,::i:,     .,.,2SrB0ZWMMXiiiii::irii::iri;;;iiiSMMBBMMMMBX:rr;;7;rr;r;;;;;;;rr;rrii;;;;77280ZS7r;;::..
+        i.:,:,,,:,,,:,,   . ..:,,;2aBMW0a:.,ii;iii;i::iirr7r7rSZMM0  .:0@MMM0777rrr;r;;;;i;;r;r;;;;;;;;;r;7XSaaSXrr;i,, 
+        :.,:,:::,:::::   .. .,iiiii7XS;, .,ii;ii:i::,ii;;XXSSZWMM2  0M@MBBWMMMaS7rr;i;;ri;i;;;;;;;i;;r;;rr;7SaSX77rri:..
+        :.:,:,:::,:::.  .   .,;;;i;::...:i;ii::,:,::i:ii;rSaaBMMM:.SMMMMMWMW@BX;7;rrr;r;;i;;;;r;rr;i;;;;;;r;XX7r7rr;i.. 
+        :.::,:,:::::.  ... ..:irii::.::iii::,::i:iiii;;ii;7Xr2@MMWX2W@WMMMBZX::iiiii:iiii;;;iiiii;;;;;;;;r;rr7rr77rri:..
+        :.:::,:,,,i..  .....,,::i...:,:::,::::i:::i,::;i;r77ri7S8@Wa0B888aXi..:ii:i,:,::i:iii:i:ii;i::;;;i;;rr7r777rr:, 
+        :,:::i::,:,.., . ..,       ,,:,,,i:iii:i:iii:;i;irr7ri,:,i;77r;;,..:iiii:i::,,,:,:,::i::,::::i;;;;;r;rrr;777;:..
+        :,i:iii::,, .,:   .    .i;7rr;i::i;iii:::,:iii;i;i;rriii;ii:iii:::;r;iiii::,,,,:::ii;ii:i:i::iiiiii;;;rrr;r;r:: 
+        ::i;ii::,,  . .:,.  :XSaZZSS2aaZ2X;,,:i;:,ii:i:iiiir;iiii;rr;;;r;r;;;;:i::::::,::;rr;i:::iii:i:i:iiiir;r;;;r;;:.
+        i,;i;;;ii:,...,..  ZMMM@M@@WBZBBBB02i,,,::i,:iiiii;i;ii:ii;i;r7r;i;;;ii:i::,:,:,:,iii:::::i:i:i:i:;;;;;;r;;i;;;,
+        i::ii;i;::.:::..  :MMMM@@MMMMMMMMMWM@7.,,,,..,:iiii;i;::::,:,:ii:i:;:iiiii::,:,,...,.::::i,::i:iiiiii;;r;;ii;r;:
+        S;;i;;r;:.::;i:   .2MMMB@@@MMMMWW@WWWX,.,.::i:::i:iii:iii::,,,,.::ii;iiii:i::,:,,,:,:::::,::::iiiiiiii;rri;i;;;i
+        27r;i;ii.  ..,.. .;XX0BWWW@@MMMM@MMMZX,:::,i::,i:::ii::i:,:::i:,.:::::,i::,::::::::i:i:::i:i:iiiiii;;rr7r;;;;;;i
+        ri;i;i;:.  .,  .,:rBM0WBMWWWWBB@MM@BZ;;::::,i:i:iii::::::::,:,:,,,,,,,::i:i:iii:i:::i:i:ii;i;iii;;;;7r7rr;;;;;ii
+        i:i;i;i, .,:;i.,:ii2W@BW@W0WWM@M@BZaXiir;X;rrrri;;;;iiiiii::::,::i,:,::i:i::,::::iiiii:iiii;;r;r;;irrX77rr;r;;i;
+        ;:;iii;::::,:,iii;XX20WWM@WW@WW08Z2rX;;7i;::,,:,ii;;i,::i::iiiiii:i::.:::ii:i:i:ii;iii;;;i;;;;r;r;rrr77rrrr;;;ri
+        ;ii;;r;i.. ,.,:i;XSaaZ8BW@W@B00Z2aS;rr::ii:ri;:;;;i;ii:::i:i:iii:iii::,,,i:iii:iiii;;;;r;;;;i;i;i;r77X77rr;r;r;;
+        ;:;;;;;,. ..,.iirXSZZaZZ088Z0BBZZ2S2i7S;Z7rrrrrrr;;;;:iii:iiiii:::iii;;iii;i;iiiii;;r;;i;iiiii;;;;7rX7X7Xrrr7rri
+        ii;;i;i:...,..,iiXSZSa22SZS228Z00ZSXr7;;i;i;;;;;;;;r;iiii;i;;;i;iiiii;;;;iiii;irrr;;;iiiii::i;;rr777rX77r;;X77;;
+        ;:;i;i;::.. .:::ii7S8BMMMMMBB2a22Z27ar77;7rrXrrii;r;r77r;i;iii;iii;;r;;;;i;i;;;;;iiii:iiii;i;rr;rr7777XrrrX7777;
+        ;;;;i;ii...,::,:,..aWBBW@MMMMMMW@@ZS;;i;;r;i,i:::ii;r7r7r;i;i;;;;r;r;iii:ii;i;;;ii::,::i:iiiiii;i;r777r;ir77r7r;
+        7;7;;rri:.,.:,:,,..78B0808BBWW@@MMMWBXri:,:ii;XXZZ0BB8X;7r;i;ii;;;r;;:::;i;i;;;ii::,::i:::::ii;i;;7rr;rrrr7rrr;;
+        ..,:,::i,..:.,.,::::raa0BBBWBB0WWWWMMMMMa2WMMMMMMMBW827r;r;;;;;;;;;i:ii;iii;ii:i::,iiiiiiiiii;;r77r777r77X7r;rrr
+        ..,:,::i,..,,,.,:i:::i:;X8888W080B08BBWMMMMBWBBB8ZaSXXr;;i;;i;;r;i::iii;;;:::iii:i:iiiiiiiiii;;r;rr7XX7rr777;rrr;
+        .  . . . ,,,,:,,.,::::i7Xa22S2SSS2S22800ZaXSSSXX7SX7i;iiiii;;;;;;;iiiiiiiii;i;i;iiiii;i;;;rr;;;r77r7777X7XXX7Xrr
+        . ....... ,,:.,.,,i:i:iirXa2XXSSXrr;rXXXr;X7XXX77rriiiii;i;;;;;;;;;;iiii;i;i;iii;i;iiiii;;r;;;Xrr;rrXXX7X7XXXX7r
+        . .........,...,,::i:i::,irXX7rr7X;;;rr7;rr7r;i;iiiiiiii;;;r;;;;;;;;iii;ii:::iiiiii;iii;;r;;r77X77rr;rrXXXXS7X77
+        , ,.........:,::::i:ii::i,,ii:i:i;;i;;;i;iiiiii:ii;i;i;;;i;i;;;;rrr;;;;i;ii::i;iii;i;;rr7;;r7r77X77r7777XXSXX7Xr
+        . .,.. . ...,:,::::i:i:i::,,,iiii;ii:ii;i;ir;r;;;r;r;rrr;r;;ir;ri;;;;iii::::::i;i;iiirr7rrr7r77777r7XXXXXX7X777r
+        , ,.........,:,,,,:,i:::ii;:::ii;;r;;;rrr;;;;;r;rr7r7rr;r;r;r;riiiiiiiiii:iii:i:ii;;r;;;r;rrX7XrrrXXXXXSXXX7X7r;
+        . .,...... .,:::,::::i:::ii;iiiii;iiiiir;;;r;r;;;r;;;r;7r;;;;;;;i::i:i:ii;i;;;;;ii;;;;;r;7rrr7r77XSSXXXXXX77r7r7
+        : ,.,.,.....,,iii:i:::i:iiiiii;iiiiiii;rr;ii;r7;;;;;r;;;r;;;;iii;iii::::ii;i;;r;;;;;;;;;;r7r77X7XXSS2SSXXXX7X77r
+        ,.,,.,.,.,.,,:iiii:i:i:::iiii;i;i;i;iii;rri;i;;7;;;;;r;;;ri;i;:::::iiii;:iii;r;;ir;rr;i;;rrr;r7X7XXXXXXXXXrr;rrr
+        :.,.,.,.,.,,::iiiii:i:i:::ii;iii;;;;r;;;;r;;r;;;r;;;;;r;rrriiiii::i:;iii;i;;;iii;;rrr;7r7;;;r77XXXX7XXX77;;;777;
+        :.,,.,.,.,,,:::iiii;i;ii:i:ii;i;i;i;;;;;ir;;;r;;;r;;;rrr;rrriiiii;iii;i;;rr7;ii;i;;iiii;;rrr7X7X777XXX7ri;;7r;;i
+        ,.,,:,,.,.,,::::i:ii;i;;;iiiiiii;i;ii;;i;ir;;;;;7r;ir;rrr;;;r;;;ri;;i;r;;;ii;iii;i;i;i;;rr77XXX7XXXXX7r;rrr;;i;i
+        :.:,,,,:,,,,,i,i:::iiii;;;i;iiiiiii;iii;;;;;i;irrr;;;;;;ir;;;;rrr7r7rrrr;ri;i;i;rr;;;;;r;rr;;;;rr777rrr77r;;i;ii
+        :.::,,,,:,:,:,::i:i:iiii;i;;r;;iiiii;iiiiir;;;;;;;rr;;7;rrrrrr7rX77rri;i;iii;;X7r;;;;;;rr;;;r;rr7;;;;iiiiiii;iii
+        ,.::,,,,.,,:,::::::i:i:iiii;;rrr;;ir;;;;i;;rrr;r;;r7;;r777r7777X7rrr;;i;7;;r;;i;ii:i;rir;7rXXSSX;iiiiiii:ii;iiii
+        :.:,,,:::.,.:,:,::::::::i:ii;;rrXX77777rrr7X77XX77X7777r7r777rrr;;riii;;;;i:ii;i;;;i;i;;rr7;;;i:ii;;;;;i;;;iii;i
+        :,,,,:,:,,.,,,,,::,::iiiiiiiii;;r77X7X77777XXXXXXX7X7777rrr7r;;;iiiiiiiiii:iir;;i;;;i;i;;;;;:::iiiiiii:i:::i:i::
+        :.:::::::,,,,,:,::::::iiiiii;;ii;;rr7rr77r7rX7X7X7X7777;r;;iiiiii:ii;;7;i:;;;;;ii:;;riii;ii:::::i:i:i:::i:i:i:i:
+        :,::::::,,.,,,,,,::i:i:::ii;;;i;;;;;rr;7rr;ri;;rrr;;rr;r;iiii;ii:iirr7r;i;;;;i:iiii;iiiiii:iii:i:::iiiiiiiiii;ii
+        i,::::::,...,,,.,,:,::i:iii:ii;;r;r;;;rr7r777r7r;;;;;;;;i:::;i;i;;;;;iii;;rii:iiiii:::i:::iii,::::i::,:,i:i:i::,
+        :,:::i:i,,.,.,.,,::::::iiii;i;;;rr;;;;;r;r7Xrr77rrr7;;;rr7;;i;ii;;ii:iiii;i;;X7;iiiiii::ii::,::iii:i:::i::,,:::i
+        i,::::i:i:,.,,,,:,:::,::i:ii;;;i;;r;r;;;r;rrr;;;r;;;ri;;r;riii;ii:i:i:iiiii:ir7rr;iii:iii:::::;ii:ii;ii:i::,::i:
+        :,:i:::i::,,.,,,,:::,::i:ii;i;i;i;r7r;;;;r;;;;;r;;iii;i::iiii;;r;;;;i;;;iiiii:ii:iiii;:::i:::ii;:i;;i;ii:iiii;ii
+        ;:i:iiiii,:,:,:,:::,::iii:ii;i;iii;;7r7rrrr;;rr;;r7r;;;i;iii;iri;;;i;;;i;ii:;ii:,,;XX;riiiiiiii:::i:i,::ii;:iiii
+        i:iiiiii::,::::::::i:iii:::iiii;i;;rr77r;rr7r7r7;ii;ir;;ii;;i;iii;i;r7;;ii:;r;i;i;7Xrr;;ii,:::,,:::::::::::i:iii
+        ;:i:i:,,,,:,::::::i:i:iii:ii;i;i;;rr7r;;r;rrX77rr;;;;iiir;r;;irrii;iiii::iii:,:::i:.,,iiiii,,:::i::,::::,,i:ii;i
+        i..,.      . . ..,,,,:,:::,::iiiii;;;i:i:i:ii;;ii;;i:i:iiii;;i:;:::i,:i;i;i:.:::.,.,,:,,:,,,.,.,,:,:,:,:::,,,::i
+		你还在看！？我从未见过有如此厚颜无耻之人！
+-->
+<!DOCTYPE html>
+<html lang="zh_CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+		<!-- 标签&icon -->
+		<title>zyfast❤ - 自由的世界</title>
+		<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+		<!--导入css （Layui）-->
+		<link rel="stylesheet" href="https://www.layuicdn.com/layui/css/layui.css" />
+		<!--导入css -->  
+		<link rel="stylesheet" href="css/chunk-common.css" />
+		<link rel="stylesheet" href="css/chunk-vendors.css" />
+		<style>
+			.menu{width: 100%;height: 64px;background-color:#23262e;position: fixed;top: 0;z-index: 999999;}
+			::-webkit-scrollbar{display:none;}
+			.ui-body{position: absolute;left: 0;right: 0;top: 0;z-index: 998;width: auto;overflow-y: auto;box-sizing: border-box;}
+		</style>
+	</head>
+	<body onmousemove=HideMenu() oncontextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+	<!-- 导航 -->
+	<div class="menu">
+	<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+    	<div class="layui-anim layui-anim-scale">
+    	<div class="layui-logo"><img src="img/logo.png" height="64" alt="zyfast"></div>
+    	</div>
+	    <ul class="layui-nav layui-layout-left">
+            <span class="layui-nav-bar" style="left: 314px; top: 55px; width: 0px; opacity: 0;"></span>
+       </ul>
+        <ul class="layui-nav layui-layout-right">
+        	<li class="layui-nav-item layui-this"><a href="">首页</a></li>
+            <li class="layui-nav-item"><a href="docs.html">文档</a></li>
+        	<li class="layui-nav-item"><a href="http://asdjkm.eicp.net:6490/"><i class="layui-icon layui-icon-template-1"></i> 控制台</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    
+    <div class="ui-body">
+    <!-- 轮播 -->
+    	<img src="img/banner1.png" width="1920">
+    	<div class="bannerBox">
+    		<a class="client_download bannerdownBtn bannerdownBtn2" data-agl-cvt="6" href="http://asdjkm.eicp.net:8964/samp/v2rayn.html">
+    			<img src="img/Windows.png"><span>电脑版下载</span>
+    		</a>
+    		<a class="bannerdownBtn bannerdownBtn3 qqgj" data-agl-cvt="6" href="http://asdjkm.eicp.net:8964/samp/v2rayng.html">
+    			<img src="img/Android.png"><span>安卓版下载</span>
+    		</a>
+       </div>
+    	
+    <!-- 特色 -->   
+    <div class="layui-anim layui-anim-up">
+    <div class="rechargeAdvantBox">
+    <div class="content rechargeAdvantCon">
+    	<br /><br /><br />
+    	<center><h3 class="indexTit">
+			我们优势
+		</h3>
+		<h6 class="indexSubTit">
+			ADVANTAGE
+		</h6></center>	
+    <ul class="rechargeAdvantList flex_row_around">
+     <li><img src="img/advant2.png" width="82" /> 
+      <div class="rechargeAdvantCell_info">
+       <h3>随时可暂停</h3> 
+       <p>所有套餐均支持随时暂停加速时长 <br /> 让您的利益最大化</p>
+      </div></li> 
+     <li><img src="img/advant3.png" width="82" /> 
+      <div class="rechargeAdvantCell_info">
+       <h3>全球专线节点支持</h3> 
+       <p>采用全球专线节点，专线传输 <br /> 让游戏体验达到最佳</p>
+      </div></li> 
+     <li><img src="img/advant4.png" width="82" /> 
+      <div class="rechargeAdvantCell_info">
+       <h3>灾备机房保驾护航</h3> 
+       <p>zyfast灾备系统 <br /> 为速度保驾 为体验护航</p>
+      </div></li> 
+     <li><img src="img/advant5.png" width="82" /> 
+      <div class="rechargeAdvantCell_info">
+       <h3>专业技术/客服支持</h3> 
+       <p>7X12小时专业技术和客服 <br /> 为您提供专业售前和售后服务</p>
+      </div></li>
+    </ul>
+    <br /><br /><br /><br />
+    </div>
+    </div>
+    </div>
+  
+	<!-- 订阅 -->
+	<div class="rechargeBox" id="rechargePage">
+		<div class="rechargeCon pclimit">
+			<h3 class="indexTit">特惠订阅</h3>
+			<h6 class="indexSubTit">RECHARGE</h6>
+		</div>
+		<div class="rechargePageCon">
+			<div class="">
+				<h3 class="rechargePageCon_tit">随时可暂停 性价比更高</h3>
+				<h5 class="rechargePageCon_subtit">碎片化时间使用，时间利用率更高。军工级的品质，心动的价格。</h5>
+			</div>
+			<ul class="refundList flex_row_center_top">
+				<li class="rec">
+                    <div class="recharge_block">
+                    	<div class="recommendTag">试用套餐</div>
+                    	<div class="refundTop">
+                    		<div class="refundHoursBox">
+                    			<h5>1</h5><h6>G</h6>
+                    		</div>
+                    	</div>
+                    	<div class="refundMid">
+                    		<div class="refundMoneyBox">
+                    			<p>0.30元</p>
+                    			<div class="refundTag ml5">/元</div>
+                    		</div>
+                    		<h6 class="refundinfo2">1G试用流量，全节点开放，<br/>体验一下飞一般的感觉。</h6>
+                    		<h6 class="refundinfo2">有效期:30天</h6>
+                    	</div>
+                    	<a class="buynow">立即购买</a>
+                    </div>
+				</li>
+				<li class="ani-15s">
+                    <div class="recharge_block">
+                    	<div class="recommendTag">大流量包</div>
+                    	<div class="refundTop">
+                    		<div class="refundHoursBox">
+                    			<h5>100</h5><h6>G</h6>
+                    		</div>
+                    	</div>
+                    	<div class="refundMid">
+                    		<div class="refundMoneyBox">
+                    			<p>8.00元</p>
+                    			<div class="refundTag ml5">/元</div>
+                    		</div>
+                    		<h6 class="refundinfo2">100G超大流量，全节点开放，<br/>还是原先的节点，稳定便宜不折腾。</h6>
+                    		<h6 class="refundinfo2">有效期:30天</h6>
+                    	</div>
+                    	<a class="buynow">立即购买</a>
+                    </div>
+				</li>
+				<li class="ani-15s">
+                    <div class="recharge_block">
+                    	<div class="recommendTag">测试节点</div>
+                    	<div class="refundTop">
+                    		<div class="refundHoursBox">
+                    			<h5>200</h5><h6>G+测试节点</h6>
+                    		</div>
+                    	</div>
+                    	<div class="refundMid">
+                    		<div class="refundMoneyBox">
+                    			<p>10.00元</p>
+                    			<div class="refundTag ml5">/元</div>
+                    		</div>
+                    		<h6 class="refundinfo2">200G超大流量，全节点开放，<br/>请多多支持新节点上架，<br/>新节点需要大家一起测试。</h6>
+                    		<h6 class="refundinfo2">有效期:30天</h6>
+                    	</div>
+                    	<a class="buynow">立即购买</a>
+                    </div>
+				</li>
+		</div>
+	</div>
+	
+	<!-- 公告 -->
+	<div class="activityBox pclimit">
+	<div class="activeCon content flex_column_center">
+		<h3 class="indexTit">
+			最新公告
+		</h3>
+		<h6 class="indexSubTit">
+			NEWS
+		</h6>
+            <div class="layui-card">
+                <div class="layui-card-header"><h3>维护完成通告</h3></div>
+                <div class="layui-card-body">
+                官网由于服务器迁移不当，硬盘损坏数据丢失，需要全面升级重装。现在全部节点给大家免费使用一个月。<br/>
+				大家需要重新注册购买流量包，并重新设置订阅地址，在2月23号之前下单免费。<br/>
+                你现在看到的是新的用户中心页面<br/>
+                新的用户中心地址是：http://asdjkm.eicp.net:6490/<br/>
+                不会使用请看使用教程页面：http://asdjkm.eicp.net:8964/samp<br/>
+                如有疑问请添加QQ:923100020 或在telegram找我。<br/>
+                </div>
+                </div>
+            </div>
+	   </div>
+    
+	<!-- 页脚 -->
+	<div class="footerBox pclimit">
+	    <div class="footer content">
+		    <div class="foot_bot">
+		    	<div class="flex_row_start">
+		    		<div class="ml25">
+		    			<img src="img/footer.png" height="70">
+		    			<p class="copyrightFont">Copyright ©2020 - 2021 zyfast.All Rights Reserved.</p>
+		    			<p class="copyrightFont">联系邮箱:asdjkm1234@gmail.com    |    联系QQ:923100020    |    Telegram群:@zyfast</p>
+		    		</div>
+		    	</div>
+		    	<div class="top">
+		    		<div style="text-align: right;">
+		    			<div>
+		    			    <img src="https://ae01.alicdn.com/kf/Udbebf0c0f31a4bd98042ac56b5b329d4v.jpg" height="150" >
+                        </div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	
+	</div>
+	</body>
+	<!-- 导入js （Layui） -->
+	<script src="https://www.layuicdn.com/layui/layui.all.js"></script>
+	<!-- 导入js -->
+	<script type="text/javascript" src="js/chunk-common.js" ></script>
+	<script type="text/javascript" src="js/chunk-vendors.js" ></script>
+	<script type="text/javascript" src="js/common.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/index1.js" ></script>
+	<script type="text/javascript" src="js/jquery.js" ></script>
+	<script type="text/javascript" src="js/navslide.js" ></script>
+</html>
