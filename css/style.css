@@ -1,0 +1,34 @@
+* 轮播*/
+.conCenter1920 {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.bannerBox .bannerdownBtn3 {
+    margin-left: 85px;
+    bottom: 215px;
+}
+.bannerBox .bannerdownBtn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 185px;
+    margin-left: 171px;
+    border: solid 2px #06ffc4;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: margin-left .3s ease-in-out;
+    cursor: pointer;
+}
+.bannerContent .bannertips {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 175px;
+    color: #06ffc4;
+    margin-left: 170px;
+    z-index: 1;
+}
